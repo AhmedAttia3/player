@@ -590,6 +590,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
 
                             public void onFinish() {
                                 trayAgin = false;
+                                if(timer!=null)timer.cancel();
                                 timer = null;
                                 new CountDownTimer(2000, 1000) {
                                     public void onTick(long millisUntilFinished) {
@@ -607,6 +608,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
 
                     if(path!=null&&trayAgin){
                         trayAgin = true;
+                        if(timer!=null)timer.cancel();
                         timer=null;
                         setVideoPath(path);
                         start();
