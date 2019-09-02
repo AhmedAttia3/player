@@ -52,7 +52,7 @@
 
     <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
     <string name="VideoView_error_text_unknown">Unknown</string>
-    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_button">Retry</string>
 
     <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
     <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
