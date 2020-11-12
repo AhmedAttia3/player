@@ -68,30 +68,9 @@ public class SampleMediaListFragment extends Fragment {
             }
         });
 
-        mAdapter.addItem("http://apk2tv.zalhd.net:20002/live/ZHD13/ZHD13/288.ts", "bipbop basic master playlist");
-        mAdapter.addItem("http://apk2tv.zalhd.net:20002/live/ZHD13/ZHD13/18001.ts", "bipbop basic master playlist");
-        mAdapter.addItem("http://apk2tv.zalhd.net:20002/live/ZHD13/ZHD13/277.ts", "bipbop basic master playlist");
-        mAdapter.addItem("http://apk2tv.zalhd.net:20002/live/ZHD13/ZHD13/5898.ts", "bipbop basic master playlist");
-        mAdapter.addItem("http://apk2tv.zalhd.net:20002/live/ZHD13/ZHD13/283.ts", "bipbop basic master playlist");
-        mAdapter.addItem("http://apk2tv.zalhd.net:20002/live/ZHD13/ZHD13/284.ts", "bipbop basic master playlist");
-        mAdapter.addItem("http://apk2tv.zalhd.net:20002/live/ZHD13/ZHD13/19080.ts", "bipbop basic master playlist");
-        mAdapter.addItem("http://hbio.live:80/movie/6558768769/RI5mprf3Qq/64672.mp4", "bipbop basic master playlist");
-        mAdapter.addItem("http://hbio.live:80/live/6558768769/RI5mprf3Qq/984.ts", "bipbop basic 400x300 @ 232 kbps");
-        mAdapter.addItem("http://hbio.live:80/live/6558768769/RI5mprf3Qq/809.ts", "bipbop basic 640x480 @ 650 kbps");
-        mAdapter.addItem("http://apk2tv.zalhd.net:20002/live/ZHD13/ZHD13/235.ts", "bipbop basic 640x480 @ 1 Mbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8", "bipbop basic master playlist");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8", "bipbop basic 400x300 @ 232 kbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8", "bipbop basic 640x480 @ 650 kbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8", "bipbop basic 640x480 @ 1 Mbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8", "bipbop basic 960x720 @ 2 Mbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear0/prog_index.m3u8", "bipbop basic 22.050Hz stereo @ 40 kbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8", "bipbop advanced master playlist");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear1/prog_index.m3u8", "bipbop advanced 416x234 @ 265 kbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear2/prog_index.m3u8", "bipbop advanced 640x360 @ 580 kbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear3/prog_index.m3u8", "bipbop advanced 960x540 @ 910 kbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear4/prog_index.m3u8", "bipbop advanced 1289x720 @ 1 Mbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear5/prog_index.m3u8", "bipbop advanced 1920x1080 @ 2 Mbps");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear0/prog_index.m3u8", "bipbop advanced 22.050Hz stereo @ 40 kbps");
+        mAdapter.addItem("video url", "playlist");
+        mAdapter.addItem("video url", "playlist");
+
     }
 
     final class SampleMediaItem {
